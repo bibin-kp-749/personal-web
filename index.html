@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 
 <head>
   <meta charset="UTF-8">
@@ -240,27 +240,28 @@
       <br><br>
     </section>
     <section id="contact">
-      <form class="form">
+      <form class="form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="e22e6315-9111-4b3f-92f5-aaa30e41fa36">
         <br><br><br>
         <div class="contact-heading">
           <h1>CONTACT ME</h1>
         </div><br><br>
         <div class="row mb-3">
-          <label for="inputname" class="col-sm-2 col-form-label">Name</label>
+          <label for="name" class="col-sm-2 col-form-label">Name</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputname">
+            <input type="text" class="form-control" name="name" id="name" >
           </div>
         </div><br>
         <div class="row mb-3">
-          <label for="inputemail" class="col-sm-2 col-form-label">Email</label>
+          <label for="email" class="col-sm-2 col-form-label">Email</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputemail">
+            <input type="email" class="form-control" name="email" id="email">
           </div>
         </div><br>
         <div class="row mb-3">
-          <label for="inputemail" class="col-sm-2 col-form-label">Message</label>
+          <label for="inputmessage" class="col-sm-2 col-form-label">Message</label>
           <div class="col-sm-10">
-            <textarea class="form-control" name="" id="" cols="30" rows="7" id="inputmessage"></textarea>
+            <textarea class="form-control" name="message" id="" cols="30" rows="7" id="message" ></textarea>
           </div>
         </div>
         <br>
