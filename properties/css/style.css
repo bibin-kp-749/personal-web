@@ -266,3 +266,33 @@ body{
         opacity: 1;
     }
 }
+#riss:hover{
+    transform: scale(1.03,1.03);
+    transition-duration: 2s;
+}
+#iedc:hover{
+    transform: scale(1.03,1.03);
+    transition-duration: 2s;
+}
+#info-campus:hover{
+    transform: scale(1.03,1.03);
+    transition-duration: 2s;
+}
+#acme-rockets:hover{
+    transform: scale(1.03,1.03);
+    transition-duration: 2s;
+}
+#old-personal-web:hover{
+    transform: scale(1.03,1.03);
+    transition-duration: 2s;
+}
+#login-page:hover{
+    transform: scale(1.03,1.03);
+    transition-duration: 2s;
+}
+@media (max-width:600px){
+    #acme-rockets{
+       width: 100%;
+    }
+
+}
