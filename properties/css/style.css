@@ -144,17 +144,20 @@ body{
     display: flex;
     justify-content: start;
     margin: 15px;
+    
 }
 .experience-pattern-2{
     display: flex;
     justify-content: end;
     margin: 10px;
+    
 }
 #iedc{
     margin: 5px 15px 10px 0px;
 }
 .card-body{
-    background-color: black;
+    background-color: rgb(8, 8, 8) !important;
+    border: 2px solid black;
     height: 100%;
     border: none;
 }
