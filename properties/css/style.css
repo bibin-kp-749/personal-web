@@ -51,7 +51,7 @@ body{
     justify-content: center;
     align-items: center;
     color: rgb(124, 124, 124);
-    animation: fadingup 3s ease-in 1s ;
+    animation: fadingup 3s ease-in  ;
     text-shadow: 0px 0px 20px rgb(0, 0, 0);
 }
 
